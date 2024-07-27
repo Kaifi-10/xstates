@@ -119,8 +119,8 @@ function XStates() {
             {selectedCountry && selectedState && selectedCity && (
                 <p>
                     You selected{' '}
-                    <span style={{ fontWeight: 'bold', fontSize: '20px' }}>{selectedCountry}</span>,{' '}
-                    <span style={{ color: "grey" }}>{selectedState}, {selectedCity}</span>
+                    <span style={{ fontWeight: 'bold', fontSize: '20px' }}>{selectedCity}</span>,{' '}
+                    <span style={{ color: "grey" }}>{selectedState}, {selectedCountry}</span>
                 </p>
             )}
         </div>
